@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>fika</Name>
+  <Repository>apfaffman/fika:3.9.8</Repository>
+  <Registry/>
+  <Network>proxynet</Network>
+  <MyIP/>
+  <Shell>bash</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project/>
+  <Overview/>
+  <Category/>
+  <WebUI/>
+  <TemplateURL/>
+  <Icon/>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1724544787</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Server Volume" Target="/opt/server" Default="/mnt/cache/appdata/fika-3.8.3/" Mode="rw" Description="Location of AKI Server files." Type="Path" Display="always" Required="false" Mask="false">/mnt/cache/appdata/fika/server/</Config>
+  <Config Name="Icon" Target="net.unraid.docker.icon" Default="/mnt/user/Custom_Icons/tarkov.png" Mode="" Description="Path to custom icon." Type="Label" Display="always" Required="false" Mask="false">/mnt/user/Custom_Icons/pika.png</Config>
+  <Config Name="SPT Listening Ports" Target="6969-6972" Default="6969-6972" Mode="tcp" Description="FIKA backend service listening ports (TCP)." Type="Port" Display="always" Required="false" Mask="false">6969-6972</Config>
+</Container>
