@@ -7,6 +7,8 @@ On first run, allow a few minutes for the image to generate necesary server file
 
 To connect, point your SPT Launcher (Settings, enable Developer Mode, fill in the URL field) to the host address (or this container's address if you have it bridged) with the port specified (e.g, http://192.168.1.10:6969, if 192.168.1.10 is your host IP).
 
+Major kudos to OnniSaarni and his Dockerfile. All I did was follow directions, spit out an image, and post it to Docker Hub. https://github.com/OnniSaarni/SPT-Fika-Docker-Guide
+
 Enjoy!
 
 See docker registry: https://registry.hub.docker.com/r/apfaffman/fika-3.9.8
