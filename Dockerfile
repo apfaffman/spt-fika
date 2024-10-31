@@ -63,5 +63,8 @@ EXPOSE 6969
 #EXPOSE 6970
 #EXPOSE 6971
 
+# Add Docker labels
+LABEL maintainer="apfaffman" project="apfaffman/fika-3.9.8" version="1.01" description="Dockerized SPT backend with Fika mod installed."
+
 # Specify the default command to run when the container starts
 CMD bash ./fcpy.sh
