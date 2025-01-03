@@ -1,7 +1,7 @@
 # spt-fika
 Play Escape from Tarkov with friends on your own private server!
 
-This is a docker image for the backend server component of Single Player Tarkov (SPT v3.9.8) with the Fika multiplayer mod (v2.2.8) already installed. I put this together primarily for the Unraid Community Apps ecosystem and Unraid docker templates for convenience and ease-of-use. This image *does not* contain the dedicated client.
+This is a docker image for the backend server component of Single Player Tarkov (SPT) with the option to install Fika multiplayer mod. I put this together for the Unraid Community Apps ecosystem and Unraid docker templates for convenience and ease-of-use. This image *does not* contain the dedicated client, though I encourage you to check out [zedramus's elegant solution](https://github.com/zhliau/fika-headless-docker).
 
 On first run, allow a few minutes for the image to generate necesary server files and import the database. You can watch the logs to see when it's ready to accept connections.
 
