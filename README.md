@@ -1,9 +1,11 @@
 # spt-fika
 Play Escape from Tarkov with friends on your own Unraid server!
 
-## Current "latest" tag
+### Current "latest" version
 SPT version 3.10.5
 Fika v2.3.6
+
+### What's this about?
 
 I deserve no credit. I just take someone else's Dockerfile, create an image, upload it to Dockerhub, and reference it in an Unraid app XML template. This way users can pull the image through Unraids excellent Community Apps plugin.
 
@@ -13,9 +15,11 @@ Originally, I built images using [OnniSarna's guide and Dockerfile](https://gith
 
 Note: this Git refers only to the emulated server backend. I'll publish a template on Unraid CA for the dedicated client soon, but that requires more setup and know-how, and I must make considerations on how to document and support it!
 
-As for this piece, on first run, allow a few minutes for the image to generate necesary server files and import the database. You can watch the logs to see when it's ready to accept connections.
+### How to Connect
 
 To connect, point your SPT Launcher (Settings, enable Developer Mode, fill in the URL field) to the host address (or this container's address if you have it bridged) with the port specified (e.g, http://192.168.1.10:6969, if 192.168.1.10 is your host IP).
+
+### Credit, Links, Etc
 
 Major kudos to [zedramus and his Dockerfile](https://github.com/zhliau/fika-spt-server-docker/blob/master/Dockerfile) and OnniSarna (for his [original guide](https://github.com/OnniSaarni/SPT-Fika-Docker-Guide) to create my first SPT server images). 
 
