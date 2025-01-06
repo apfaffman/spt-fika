@@ -3,6 +3,7 @@ Play Escape from Tarkov with friends on your own Unraid server!
 
 ### Current "latest" version
 SPT version 3.10.5
+
 Fika v2.3.6
 
 ### What's this about?
