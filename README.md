@@ -17,4 +17,4 @@ Major kudos to [zedramus and his Dockerfile](https://github.com/zhliau/fika-spt-
 
 For more information about the SPT Escape from Tarkov mod, check out https://sp-tarkov.com/.
 
-For more information about the Fika project, check out https://github.com/project-fika/Fika-Documentation.
+For more information about the Fika project, check out https://project-fika.gitbook.io/wiki.
