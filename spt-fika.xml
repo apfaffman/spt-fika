@@ -13,7 +13,7 @@
   <Category>GameServers:</Category>
   <WebUI>https://[IP]:[PORT:6969]</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/apfaffman/docker-templates/master/spt-fika.xml</TemplateURL>
-  <Icon>https://raw.githubusercontent.com/apfaffman/spt-fika/refs/heads/main/pika.png</Icon>
+  <Icon>https://raw.githubusercontent.com/apfaffman/spt-fika/refs/heads/master/pika.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
