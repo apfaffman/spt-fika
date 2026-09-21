@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>spt-fika</Name>
+  <Repository>ghcr.io/sp-tushonka/server-csharp:4.1.6</Repository>
+  <Registry>https://github.com/SP-Tushonka/server-csharp</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>bash</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project>https://github.com/SP-Tushonka/server-csharp</Project>
+  <Overview>SPT server backend. Fika-compatible, but must be installed and configured. This is a barebones template to get your SPT/Fika server running quickly on Unraid.</Overview>
+  <Category>GameServers:</Category>
+  <WebUI>https://[IP]:[PORT:6969]</WebUI>
+  <TemplateURL>https://raw.githubusercontent.com/apfaffman/docker-templates/master/spt-fika.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/apfaffman/spt-fika/refs/heads/main/pika.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DonateText>Please be kind.</DonateText>
+  <DonateLink>https://www.reddit.com/r/RedditForHumanity/comments/1mce5et/information_about_which_charities_actually_reach/</DonateLink>
+  <Requires/>
+  <Config Name="Server User Directory" Target="/opt/spt/user" Default="/mnt/user/appdata/spt/user" Mode="rw" Description="Location of user profiles, server mods (user/mods), and logs." Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/spt-fika/user</Config>
+  <Config Name="Web / Client Port" Target="6969" Default="6969" Mode="tcp" Description="Host port for client HTTP traffic (used when running on bridge network)." Type="Port" Display="always" Required="true" Mask="false">6969</Config>
+  <Config Name="Bind IP" Target="SPT_IP" Default="0.0.0.0" Mode="" Description="Internal bind address inside the container." Type="Variable" Display="advanced" Required="true" Mask="false">0.0.0.0</Config>
+  <Config Name="SPT Port" Target="SPT_PORT" Default="6969" Mode="" Description="Internal listening port for the SPT server." Type="Variable" Display="advanced" Required="true" Mask="false">6969</Config>
+  <Config Name="Backend Advertised IP" Target="SPT_BACKEND_IP" Default="" Mode="" Description="Advertised LAN/remote IP address that game clients use to connect to this server." Type="Variable" Display="always" Required="true" Mask="false">192.168.1.69</Config>
+  <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="User ID for file permissions (99 is Unraid 'nobody', 1000 for standard Linux user)." Type="Variable" Display="advanced" Required="false" Mask="false">1000</Config>
+  <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="Group ID for file permissions (100 is Unraid 'users', 1000 for standard Linux group)." Type="Variable" Display="advanced" Required="false" Mask="false">1000</Config>
+</Container>
+
